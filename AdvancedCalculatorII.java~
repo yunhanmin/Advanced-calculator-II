@@ -1,0 +1,33 @@
+/*
+ * Project: Advanced Calculator II
+ * Description: An exploration into "While" loops with a calculator.
+ * Name: Hanmin Yun
+ * Date: Sept 16, 2015
+ */
+
+public class AdvancedCalculatorII {
+  
+  public static void main( String[] args ) {
+    
+    // For loop
+    int sum = 0, j;
+    for ( j=3; j<=79; j++ ) {
+     sum = sum + j; 
+    }
+    System.out.println( "While Sum = " + sum2 ); //3157
+    
+    // #5
+    boolean done = false;
+    int i = 10;
+    while ( !done ) {
+      if ( i < 1 ) {
+       done = true;
+       System.out.println( "done" );
+       break;
+      }
+      i--;
+      System.out.println( "i = " + i );
+    }
+  } // end main method
+  
+} // end class
