@@ -1,0 +1,20 @@
+/*
+ * Project: PlayingWithLoops.java
+ * Description: Reviewing loops
+ * Name: Hanmin Yun
+ * Date: Sept 21, 2015
+ */
+
+public class PlayingWithLoops {
+  
+  public static void main( String[] args ) {
+    
+    // #1 For loop
+    
+    // #2 While loop
+    
+    // #3 Assignment
+    
+  } // end main method
+  
+} // end class
